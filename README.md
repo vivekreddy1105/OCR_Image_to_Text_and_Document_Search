@@ -20,14 +20,14 @@ This project implements a web-based prototype that performs Optical Character Re
 ### Environment Setup
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/ocr-document-search.git
-   cd ocr-document-search
+   git clone https://github.com/vivekreddy1105/OCR_Image_to_Text_and_Document_Search/tree/88aad01849473ea8db2785a0fcd7cccdb68892e4
+
    ```
 
 2. **Create a Virtual Environment**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate  
    ```
 
 3. **Install Required Libraries**
@@ -51,32 +51,4 @@ This project implements a web-based prototype that performs Optical Character Re
 
 ## Deployment
 This application is deployed on [Gradio](https://gradio.app) and can be accessed via the following link:
-[Live Web Application](https://your-gradio-url)
-
-## Deliverables
-1. **Code**: The Python scripts for the web application, including OCR processing and search functionality.
-2. **README File**: This documentation file explaining setup and usage.
-3. **Extracted Text Output**: JSON or plain text output of the extracted text from the uploaded image.
-4. **Search Functionality Demonstration**: A demonstration of the search functionality with example keywords.
-
-## Evaluation Criteria
-- **Accuracy**: Effectiveness of the OCR model in extracting text from both Hindi and English sections.
-- **Functionality**: Correct handling of image uploads, text extraction, and keyword searches.
-- **User Interface**: Simplicity and intuitiveness of the web interface.
-- **Deployment**: Reliable online accessibility of the application.
-- **Clarity**: Well-structured documentation and code.
-- **Completeness**: Submission of all deliverables demonstrating required functionality.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-- [EasyOCR](https://github.com/JaidedAI/EasyOCR) for the OCR implementation.
-- [OpenCV](https://opencv.org/) for image processing functionalities.
-- [Gradio](https://gradio.app/) for easy web interface creation.
-```
-
-### Notes:
-- Make sure to replace `https://github.com/yourusername/ocr-document-search.git` with the actual URL of your GitHub repository.
-- Update the Gradio deployment URL with the live link of your application.
-- Feel free to modify any section to better fit your project specifics.
+[Live Web Application]([https://your-gradio-url](https://huggingface.co/spaces/vivekreddy1105/OCR_Image_to_Text_and_Document_Search))
