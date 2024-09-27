@@ -44,9 +44,6 @@ The implementation of Optical Character Recognition (OCR) for documents like new
    ```bash
    python app.py
    ```
-
-3. Access the application at `http://localhost:7860` in your web browser.
-
 ## Usage
 - **Upload an Image**: Click on the "Upload Image" button to select an image file containing text.
 - **Enter Keywords**: Input keywords separated by the pipe character (`|`) to search within the extracted text.
