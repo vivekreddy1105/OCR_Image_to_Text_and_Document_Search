@@ -2,6 +2,9 @@
 
 ## Overview
 This project implements a web-based prototype that performs Optical Character Recognition (OCR) on uploaded images containing text in both Hindi and English. Users can upload an image, extract text using OCR, and perform keyword searches within the extracted text. The application is developed using Python and deployed using Gradio.
+### Implementation Idea: Text Recognition and Searching
+
+The implementation of Optical Character Recognition (OCR) for documents like newspapers focuses on structured text recognition. Initially, the application identifies distinct text blocks using techniques such as contour detection, which is essential for handling the scattered text typical in newspaper layouts. Once these blocks are detected, the OCR model extracts text sequentially from left to right, preserving the logical flow and ensuring that the content remains coherent. Users can input one or more keywords, separated by `|`. The application will then search for each keyword throughout the extracted text, disregarding case sensitivity for comprehensive matching. When a keyword is found, the application highlights the matching sections in the output image using distinct colors for each keyword. 
 
 ## Objectives
 - Perform OCR on images to extract text.
