@@ -51,4 +51,4 @@ This project implements a web-based prototype that performs Optical Character Re
 
 ## Deployment
 This application is deployed on [Gradio](https://gradio.app) and can be accessed via the following link:
-[Live Web Application]([https://your-gradio-url](https://huggingface.co/spaces/vivekreddy1105/OCR_Image_to_Text_and_Document_Search))
+[Live Web Application](https://huggingface.co/spaces/vivekreddy1105/OCR_Image_to_Text_and_Document_Search)
