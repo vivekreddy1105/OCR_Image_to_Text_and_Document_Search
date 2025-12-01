@@ -1,35 +1,3 @@
-Hugging Face's logo
-
-Spaces:
-vivekreddy1105
-/
-OCR_Image_to_Text_and_Document_Search 
-
-like
-0
-
-App
-Files
-Community
-Settings
-OCR_Image_to_Text_and_Document_Search
-/
-app.py
-
-vivekreddy1105's picture
-vivekreddy1105
-Update app.py
-2361647
-verified
-raw
-
-Copy download link
-history
-blame
-edit
-delete
-
-5.09 kB
 import cv2
 import easyocr
 import numpy as np
